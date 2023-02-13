@@ -1,0 +1,46 @@
+version: 2
+
+models:
+  - name: appdomain_canonical
+    description: Staged customer data from our jaffle shop app.
+    columns: 
+      - name: db_name_ad_id
+        description: To be added...
+        type: varchar
+        tag: added
+      - name: ad_id
+        description: To be added...
+        type: numeric
+        tag: approved
+      - name: ad_info
+        description: To be added...
+        type: varchar
+        tag: approved
+      - name: ad_default_locale
+        description: To be added...
+        type: numeric
+        tag: approved
+---
+
+version: 2
+
+models:
+  - name: appdomain_duplication
+    description: Staged customer data from our jaffle shop app.
+    columns: 
+      - name: db_name_ad_id
+        description: To be added...
+        type: varchar
+        tag: added
+      - name: ad_id
+        description: To be added...
+        type: numeric
+        tag: approved
+      - name: ad_info
+        description: To be added...
+        type: varchar
+        tag: approved
+      - name: ad_default_locale
+        description: To be added...
+        type: numeric
+        tag: approved
